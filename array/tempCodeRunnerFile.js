@@ -1,0 +1,1 @@
+food.pop("mango");

@@ -1,21 +1,24 @@
-let arr = [1, 2, 4, 5, 7]
-//  Index  0, 1, 2, 3, 4
+let marks = [74, 55, 88, 98, 66];
+console.log(marks);
+console.log(marks[0]);
+console.log(marks.length);
 
-arr[0] = 5666;
-// console.log(arr, typeof arr);
-// console.log(arr.length)
+let heros = ["antman", "batman", "superman", "shaktiman", "flash", "eternals"];
+console.log(heros);
+console.log(typeof heros);
+heros[0] = "ironman";
 
-// console.log(arr[0])
-// console.log(arr[2])
-// console.log(arr[4])
+//loop for arrays :-
 
-console.log(arr.toString())
-console.log(arr.join(" and "))
+//FOR LOOP
 
+for (let index = 0; index < heros.length; index++) {
+  console.log(heros[index]);
+}
 
- 
-// let numbers = [1, 2, 3, 4, 5] 
-// numbers.splice(1, 2)    
-// numbers.splice(1, 3)  
-// numbers.splice(1, 3, 222, 333) 
-// (4) [1, 222, 333, 5]
+// FOR OF LOOP
+
+for (let element of heros) {
+  console.log(element);
+  console.log(element.toUpperCase());
+}
