@@ -1,0 +1,31 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+body {
+    background-color: pink;
+}
+h1{
+    margin: 20px 0px;
+    color : brown ;
+    background-color: yellow;
+}
+h4{
+    margin: 10px 0px;
+}
+p{
+    margin: 10px 0px;
+}
+button{
+    background-color: aquamarine;
+}
+
+.box{
+    margin: 20px;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
