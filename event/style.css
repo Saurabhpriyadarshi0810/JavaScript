@@ -1,0 +1,9 @@
+div{
+    height: 200px;
+    width: 300px;
+    background: dodgerblue;
+    color: white;
+    border: 1px solid black;
+    font-size: 30px;
+    border-radius: 10px;
+}
